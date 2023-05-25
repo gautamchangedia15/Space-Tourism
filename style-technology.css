@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+    background-image: url(./assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color:white; 
+    font-family: 'Barlow';
+}
+.logo
+{
+    position: absolute;
+    top:67px;
+    left:4%;
+}
+.upperline
+{
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    left: 11%;
+    top: 70px;
+}
+.container{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    width: 58%;
+    height: 96px;
+    position: absolute;
+    right: 0;
+    left: 42%;
+    top:43px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-nav {
+    font-family: 'Barlow Condensed';
+    gap:48px;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    height: 96px;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    margin-left: 90px;
+}
+
+
+.destination,.crew,.home
+{
+   border: none;
+}
+.destination:hover,.crew:hover,.home:hover{
+    border-style: solid ;
+    border-width: 0;
+    border-bottom-width: 3px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.technology{
+    border-style: solid ;
+    border-width: 0;
+    border-bottom-width: 3px;
+}
+
+
+.upperheading{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    left: 10%;
+    top: 20%;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.one{
+    opacity: 0.25;
+    margin-right: 10px;
+}
+
+.main_box{
+    position: absolute;
+    left: 10%;
+    top:30%;
+    display: grid;
+    grid-template-columns: 0.1fr 2.5fr 1fr;
+}
+a
+{
+    text-decoration: none;
+}
+.circle_number
+{
+    display: flex;
+    gap:32px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.other{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.other:hover
+{
+    border: 1px solid rgba(255, 255, 255);
+}
+
+.num{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.content .title
+{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+
+.content h1{
+    text-transform: uppercase;
+    font-family: 'Bellefair';
+    font-size: 50px;
+}
+
+.content .description{
+    font-family: 'Barlow';
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+
+.img1{
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    display: none;
+}
+
+
+
+@media screen and (max-width:767px)
+{
+    .upperline{
+        display: none;
+    }  
+    .numbers
+    {
+        display: none;
+    }
+    body{
+        margin: 0;
+        background-image: url(./assets/technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        color:white; 
+    }    
+    .logo{
+        top:24px;
+    }
+    .container{
+        top:0;
+        width: 445px;
+        height: 96px;
+        left:auto;  
+        padding-left: 30px;
+    }
+    .navbar-nav{
+        gap:30px;
+        font-size: 14px;
+    }
+    .home{
+        margin-left: 0;
+    }
+
+    .one{
+        opacity: 0.25;
+        margin-right: 10px;
+    }
+    .upperheading{
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    .main_box{
+        position: absolute;
+        left: auto;
+        right: auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 320px 150px auto;
+
+    }
+
+    .circle_number
+    {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 60%;
+        text-align: center;
+    }
+
+    .content .description
+    {
+        text-align: center;
+    }
+    .img{
+        order: -2;
+    }
+    .img1{
+        display: none;
+    }
+
+    .img2{
+        display: grid;
+        width: 100%;
+        height: 310px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+    body
+    {
+        background-image: url(./assets/destination/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }
+    container{
+       background: none;
+        width: 50%;
+        backdrop-filter:none;
+        margin-top: 0;
+        padding: 0;
+    }
+    .img
+    {
+        z-index: -1;
+    }
+    .navbar-toggler
+    {
+        margin-top: 4vh;
+        z-index: 2;
+    }
+
+    .navbar-collapse{
+        position: absolute;
+        right: 0px;
+        top:0;
+        width: 100%;
+        height: 900px;
+        margin-right: 0;
+        background: rgba(255, 255, 255, 0.04);
+       -webkit-backdrop-filter: blur(100px);
+       backdrop-filter: blur(100px);
+       animation: none;
+   }
+
+   .navbar-nav{
+       margin-top: 25%;
+       padding-left: 20%;
+       font-size: 16px;
+       font-weight: 400;
+       gap: 50px;
+   }
+   .close-icon{
+    color: white;
+    display: none;
+
+   }
+   .numbers{
+       display: inline-block;
+       padding-right: 5px;
+   }
+
+   .technology{
+    border-style: solid ;
+    border-width: 0;
+    border-right-width: 5px;
+    border-color: white;
+    }
+
+    .home:hover,.crew:hover,.destination:hover{
+        border-style: none ;
+        opacity: 1; 
+    }
+
+    .upperheading{
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        left:0px;
+        right: 0px;
+    }
+    .main_box{
+        position: absolute;
+        left: auto;
+        right: auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 170px 150px auto;
+        z-index: -1;
+    }
+
+    .img2{
+        display: grid;
+        height: 170px;
+        width: 100%;
+    }
+
+
+    .content{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    
+}
