@@ -334,6 +334,8 @@ body{
 
     .main-box{
         margin-bottom: 200px;
+        left:0;
+        right:0;
     }
     .upperheading
     {
