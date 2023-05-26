@@ -333,6 +333,7 @@ body{
     }
 
     .main-box{
+        width: 100%;
         margin-bottom: 200px;
         left:0;
         right:0;
@@ -358,7 +359,7 @@ body{
     .img-below-line{
         display:block;
         color:white;
-        width: 450px;
+        width: auto;
         margin: 0;
     }
     .sidebox{
@@ -368,4 +369,5 @@ body{
     .description p{
         line-height: 25px;
     }
+
 }
