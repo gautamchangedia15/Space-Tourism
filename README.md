@@ -14,7 +14,7 @@ This is a multipage website built as a solution to the "Space Tourism" challenge
 
 ## Demo
 
-You can view a live demo of the website [here](https://your-demo-link.com).
+You can view a live demo of the website [here](https://gautamchangedia15.github.io/Space-Tourism/).
 
 
 ## Technologies Used
